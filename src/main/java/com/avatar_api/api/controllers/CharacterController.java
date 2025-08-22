@@ -1,5 +1,7 @@
 package com.avatar_api.api.controllers;
 import java.util.List;
+
+import com.avatar_api.api.dto.CharacterResponse;
 import com.avatar_api.api.models.Character;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,13 +21,15 @@ public class CharacterController {
 	private CharacterRepository characterRepository;
 	
 	@GetMapping
-	public ResponseEntity<?> getAllCharacters() {
+	public ResponseEntity<CharacterResponse> getAllCharacters() {
 		try {
 			List<Character> characters = characterRepository.findAllCharactersNative();
-			return ResponseEntity.ok(characters);
+			CharacterResponse response = new CharacterResponse("Characters retrieved successfully", characters);
+			return ResponseEntity.ok(response);
 		} catch (Exception e) {
-			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
-								 .body("An unexpected error occured. Please try again later.");
+			CharacterResponse errorResponse = new CharacterResponse("Error retrieving characters", null);
+			return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+		  }
 		}
-	}
-}
+    }
+
