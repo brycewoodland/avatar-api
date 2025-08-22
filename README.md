@@ -90,5 +90,24 @@ The server will start at http://localhost:8080
 - [ ] Add write operations (```POST```, ```PUT```, ```DELETE```)
 - [ ] Extend database to include Legend of Korra data
 
+## 📚 Learning Resources
+
+- **Spring Boot & REST APIs**
+  - [Spring Boot Official Guide](https://spring.io/projects/spring-boot)
+  - [Baeldung Spring Boot Tutorials](https://www.baeldung.com/spring-boot)
+
+- **PostgreSQL & SQL**
+  - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
+  - [SQLBolt – Interactive SQL Tutorial](https://sqlbolt.com/)
+
+- **JPA / Hibernate**
+  - [Hibernate ORM Documentation](https://hibernate.org/orm/documentation/)
+  - [Spring Data JPA Guide](https://spring.io/projects/spring-data-jpa)
+
+- **General Java**
+  - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
+  - [Java Programming Tutorials by Baeldung](https://www.baeldung.com/java-tutorial)
+
+
 ## License
 MIT License. Free to use, modify, and share.
