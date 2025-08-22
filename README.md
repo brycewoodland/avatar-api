@@ -85,10 +85,10 @@ The server will start at http://localhost:8080
 - **Build Tool**: Maven
 
 ## Future Plans
-- [] Add filtering (e.g., characters by bending style, nation)
-- [] Implement pagination for large datasets (e.g., episodes, quotes)
-- [] Add write operations (```POST```, ```PUT```, ```DELETE```)
-- [] Extend database to include Legend of Korra data
+- [ ] Add filtering (e.g., characters by bending style, nation)
+- [ ] Implement pagination for large datasets (e.g., episodes, quotes)
+- [ ] Add write operations (```POST```, ```PUT```, ```DELETE```)
+- [ ] Extend database to include Legend of Korra data
 
 ## License
 MIT License. Free to use, modify, and share.
