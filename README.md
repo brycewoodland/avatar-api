@@ -58,7 +58,7 @@ cd avatar-api
 CREATE DATABASE avatar_api;
 ```
 
-3. Run the schema script to set up tables: avatar-db-backup
+3. Run the schema script to set up tables: Repo - https://github.com/brycewoodland/avatar-db-backup
 
 4. Configure your database credentials in src/main/resources/application.properties:
 
