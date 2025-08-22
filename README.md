@@ -95,7 +95,8 @@ The server will start at http://localhost:8080
 - **Spring Boot & REST APIs**
   - [Spring Boot Official Guide](https://spring.io/projects/spring-boot)
   - [Baeldung Spring Boot Tutorials](https://www.baeldung.com/spring-boot)
-  - [Programming with Mosh - Spring Boot Tutorial](https://www.youtube.com/watch?v=gJrjgg1KVL4&t=1102s) 
+  - [Programming with Mosh - Spring Boot Tutorial](https://www.youtube.com/watch?v=gJrjgg1KVL4&t=1102s)
+  - [Maven Central Repository](https://central.sonatype.com/)
 
 - **PostgreSQL & SQL**
   - [PostgreSQL Documentation](https://www.postgresql.org/docs/)
