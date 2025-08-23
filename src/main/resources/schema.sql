@@ -22,6 +22,7 @@ CREATE TABLE character_factions (
     organization_id INT REFERENCES factions(id),
     PRIMARY KEY(character_id, organization_id)
 );
+
 -- =========================================
 -- Create Characters Table
 -- =========================================
